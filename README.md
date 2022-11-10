@@ -3,3 +3,4 @@
 - [Календарь](https://smirnovalex0891.github.io/tmp-progect/calend.html) 
 - [Работа](https://smirnovalex0891.github.io/tmp-progect/academy.html)
 - [Test](https://smirnovalex0891.github.io/tmp-progect/test.html)
+- [Test2](https://smirnovalex0891.github.io/tmp-progect/test2.html)
