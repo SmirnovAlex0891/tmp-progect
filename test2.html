@@ -12,7 +12,8 @@
           box-sizing: border-box;
         }
         :root {
-          --element-bg-color: rgb(173, 63, 216);          
+          --element-bg-color: rgb(173, 63, 216);
+          --element-mob-bg-color: rgb(203, 50, 167);         
         }
         html,
         body,
@@ -44,7 +45,35 @@
         .footer {
           grid-area: footer;
           background: var(--element-bg-color);
-        }        
+        }
+        
+        @media (max-width: 768px) {
+        .wrapper {
+          grid-template-columns: 100%;
+          grid-template-rows: 1fr 5fr 1fr;
+          grid-template-areas:
+            "header"
+            "main"
+            "footer";
+          gap: 10px;
+        }
+        .sidebar {
+          display: none;
+        }
+        .header {
+          display: block;
+          background: var(--element-mob-bg-color);
+        }
+        .main {
+          display: block;
+          width: 100%;
+          background: var(--element-mob-bg-color);
+        }          
+        .footer {
+          display: block;
+          background: var(--element-mob-bg-color);
+        }
+      }   
       </style>
 </head>
 <body>
